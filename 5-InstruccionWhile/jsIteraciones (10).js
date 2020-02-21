@@ -2,15 +2,22 @@ function mostrar()
 {
 
 	var contador=0;
-	//declarar contadores y variables 
-	
+	var suma;
+	var multi;
+	var numero;
 	var respuesta="si";
 
-	while(respuesta!="no")
-	{
-		
+	do{
+		numero = parseInt(prompt("ingrese un numero"))
+		while (isNaN(numero)){
+			numero = parseInt(prompt("Eso no es un numero. Ingrese un numero"))
+	 }
+	 if(numero < 0 ){
+		 suma = numero + suma;
+
+	 }	
 	
-	}
+	 }
 
 
 

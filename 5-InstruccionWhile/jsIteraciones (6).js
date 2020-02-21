@@ -6,7 +6,10 @@ function mostrar()
 
 while (!(contador == 5)){
 	acumulador += parseInt(prompt("ingrese un numero"));
+	if(isNaN(acumulador)){ 
+	acumulador += parseInt(respuesta);
 	contador++; 
+	 }
  }
        
 document.getElementById('suma').value=acumulador;
