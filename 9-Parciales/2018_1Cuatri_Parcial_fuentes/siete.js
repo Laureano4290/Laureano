@@ -34,4 +34,4 @@ promedio = suma / 5;
 
 alert("a) El promedio de las notas totales: " + promedio
 + "\nb) La nota más baja: " + notaBaja + " sexo: " + sexoBajo
-+ "\nc) La cantidad de varones que su nota haya sido mayor o igual a 6: " + contadorV6
++ "\nc) La cantidad de varones que su nota haya sido mayor o igual a 6: " + contadorV6)
